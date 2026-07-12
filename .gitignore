@@ -1,0 +1,22 @@
+# Python
+ai-service/venv/
+ai-service/__pycache__/
+*.pyc
+
+# Java
+backend/target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
