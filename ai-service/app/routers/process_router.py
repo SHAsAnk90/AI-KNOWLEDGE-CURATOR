@@ -15,4 +15,5 @@ async def process_vedio(file: UploadFile = File(...)):
         shutil.copyfileobj(file.file, buffer)
 
     context = processing_service.process(str(upload_path))
+    print(context.knowledge_tree)
     return {"message": "Video processed successfully", "transcript": context.chunks}
